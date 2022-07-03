@@ -1,0 +1,31 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Content Remove="C:\Users\USER\.nuget\packages\lmdotnet.core\1.11.0\contentFiles\any\any\lmfit32\lmfit.dll" />
+    <Content Remove="C:\Users\USER\.nuget\packages\lmdotnet.core\1.11.0\contentFiles\any\any\lmfit32\lmfit.pdb" />
+    <Content Remove="C:\Users\USER\.nuget\packages\lmdotnet.core\1.11.0\contentFiles\any\any\lmfit64\lmfit.dll" />
+    <Content Remove="C:\Users\USER\.nuget\packages\lmdotnet.core\1.11.0\contentFiles\any\any\lmfit64\lmfit.pdb" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="exceldna.addin" Version="1.6.0-preview3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\QuantLibrary\QuantLibrary.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="C:\Users\USER\.nuget\packages\lmdotnet.core\1.11.0\contentFiles\any\any\lmfit32\lmfit.dll" />
+    <Resource Include="C:\Users\USER\.nuget\packages\lmdotnet.core\1.11.0\contentFiles\any\any\lmfit32\lmfit.pdb" />
+    <Resource Include="C:\Users\USER\.nuget\packages\lmdotnet.core\1.11.0\contentFiles\any\any\lmfit64\lmfit.dll" />
+    <Resource Include="C:\Users\USER\.nuget\packages\lmdotnet.core\1.11.0\contentFiles\any\any\lmfit64\lmfit.pdb" />
+  </ItemGroup>
+
+</Project>

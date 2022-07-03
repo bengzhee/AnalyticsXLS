@@ -1,0 +1,64 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "AnalyticsDNA/1.0.0": {
+        "dependencies": {
+          "QuantLibrary": "1.0.0",
+          "ExcelDna.AddIn": "1.6.0-preview3"
+        },
+        "runtime": {
+          "AnalyticsDNA.dll": {}
+        }
+      },
+      "ExcelDna.AddIn/1.6.0-preview3": {
+        "dependencies": {
+          "ExcelDna.Integration": "1.6.0-preview3"
+        }
+      },
+      "ExcelDna.Integration/1.6.0-preview3": {
+        "runtime": {
+          "lib/net452/ExcelDna.Integration.dll": {
+            "assemblyVersion": "1.1.0.0",
+            "fileVersion": "1.6.0.0"
+          }
+        }
+      },
+      "QuantLibrary/1.0.0": {
+        "runtime": {
+          "QuantLibrary.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "AnalyticsDNA/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "ExcelDna.AddIn/1.6.0-preview3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-p9HhWYBWFVGNwkyrxobU/9iC4+M0QV2oCfTuPElnhxHCnO6ZNUaYS9dbA70wyqjr+v1hba2MPLu82kh0NLlIpw==",
+      "path": "exceldna.addin/1.6.0-preview3",
+      "hashPath": "exceldna.addin.1.6.0-preview3.nupkg.sha512"
+    },
+    "ExcelDna.Integration/1.6.0-preview3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-vf0/hvV5joGp1CPi7ZqPxXlq0uFNzgcMQ3eDQhvpEKC9/XFlUPu0vmODNa6BU0DRSmbE9PKgWjmTR5BoN82Fig==",
+      "path": "exceldna.integration/1.6.0-preview3",
+      "hashPath": "exceldna.integration.1.6.0-preview3.nupkg.sha512"
+    },
+    "QuantLibrary/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

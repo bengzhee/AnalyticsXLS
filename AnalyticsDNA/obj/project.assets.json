@@ -1,0 +1,173 @@
+{
+  "version": 3,
+  "targets": {
+    "net6.0": {
+      "ExcelDna.AddIn/1.6.0-preview3": {
+        "type": "package",
+        "dependencies": {
+          "ExcelDna.Integration": "[1.6.0-preview3]"
+        },
+        "build": {
+          "build/ExcelDna.AddIn.targets": {}
+        }
+      },
+      "ExcelDna.Integration/1.6.0-preview3": {
+        "type": "package",
+        "compile": {
+          "lib/net452/ExcelDna.Integration.dll": {}
+        },
+        "runtime": {
+          "lib/net452/ExcelDna.Integration.dll": {}
+        }
+      },
+      "QuantLibrary/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/QuantLibrary.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/QuantLibrary.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "ExcelDna.AddIn/1.6.0-preview3": {
+      "sha512": "p9HhWYBWFVGNwkyrxobU/9iC4+M0QV2oCfTuPElnhxHCnO6ZNUaYS9dbA70wyqjr+v1hba2MPLu82kh0NLlIpw==",
+      "type": "package",
+      "path": "exceldna.addin/1.6.0-preview3",
+      "hasTools": true,
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "build/ExcelDna.AddIn.targets",
+        "content/ExcelDna-Template.dna",
+        "content/Properties/ExcelDna.Build.props",
+        "exceldna.addin.1.6.0-preview3.nupkg.sha512",
+        "exceldna.addin.nuspec",
+        "readme.txt",
+        "tools/net452/EnvDTE.dll",
+        "tools/net452/ExcelDna.AddIn.Tasks.dll",
+        "tools/net452/ExcelDna.Integration.dll",
+        "tools/net452/ExcelDna.xll",
+        "tools/net452/ExcelDna64.xll",
+        "tools/net452/ExcelDnaPack.exe",
+        "tools/net452/ExcelDnaPack.exe.config",
+        "tools/net452/Newtonsoft.Json.dll",
+        "tools/net452/install.ps1",
+        "tools/net452/uninstall.ps1",
+        "tools/net6.0-windows/ExcelDna.AddIn.Tasks.dll",
+        "tools/net6.0-windows/ExcelDna.Integration.dll",
+        "tools/net6.0-windows/ExcelDna.xll",
+        "tools/net6.0-windows/ExcelDna64.xll",
+        "tools/net6.0-windows/ExcelDnaPack.dll",
+        "tools/net6.0-windows/ExcelDnaPack.exe",
+        "tools/net6.0-windows/ExcelDnaPack.runtimeconfig.json"
+      ]
+    },
+    "ExcelDna.Integration/1.6.0-preview3": {
+      "sha512": "vf0/hvV5joGp1CPi7ZqPxXlq0uFNzgcMQ3eDQhvpEKC9/XFlUPu0vmODNa6BU0DRSmbE9PKgWjmTR5BoN82Fig==",
+      "type": "package",
+      "path": "exceldna.integration/1.6.0-preview3",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "exceldna.integration.1.6.0-preview3.nupkg.sha512",
+        "exceldna.integration.nuspec",
+        "lib/net452/ExcelDna.Integration.dll",
+        "lib/net6.0-windows/ExcelDna.Integration.dll"
+      ]
+    },
+    "QuantLibrary/1.0.0": {
+      "type": "project",
+      "path": "../QuantLibrary/QuantLibrary.csproj",
+      "msbuildProject": "../QuantLibrary/QuantLibrary.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net6.0": [
+      "QuantLibrary >= 1.0.0",
+      "exceldna.addin >= 1.6.0-preview3"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\USER\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Projects\\AnalyticsXLS\\AnalyticsDNA\\AnalyticsDNA.csproj",
+      "projectName": "AnalyticsDNA",
+      "projectPath": "C:\\Projects\\AnalyticsXLS\\AnalyticsDNA\\AnalyticsDNA.csproj",
+      "packagesPath": "C:\\Users\\USER\\.nuget\\packages\\",
+      "outputPath": "C:\\Projects\\AnalyticsXLS\\AnalyticsDNA\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\USER\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net6.0"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "projectReferences": {
+            "C:\\Projects\\AnalyticsXLS\\QuantLibrary\\QuantLibrary.csproj": {
+              "projectPath": "C:\\Projects\\AnalyticsXLS\\QuantLibrary\\QuantLibrary.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net6.0": {
+        "targetAlias": "net6.0",
+        "dependencies": {
+          "exceldna.addin": {
+            "target": "Package",
+            "version": "[1.6.0-preview3, )"
+          }
+        },
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.301\\RuntimeIdentifierGraph.json"
+      }
+    }
+  },
+  "logs": [
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'ExcelDna.Integration 1.6.0-preview3' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8' instead of the project target framework 'net6.0'. This package may not be fully compatible with your project.",
+      "libraryId": "ExcelDna.Integration",
+      "targetGraphs": [
+        "net6.0"
+      ]
+    }
+  ]
+}

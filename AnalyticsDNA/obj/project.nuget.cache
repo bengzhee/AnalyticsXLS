@@ -1,0 +1,22 @@
+{
+  "version": 2,
+  "dgSpecHash": "INHBiSs3GShTJoSuKRs036q/0hqPglc6YSRq8wE2cOWEFzOBuWhL+DCg4ds7G+u+4Ce/iYgOwDhDj39vjaN+tg==",
+  "success": true,
+  "projectFilePath": "C:\\Projects\\AnalyticsXLS\\AnalyticsDNA\\AnalyticsDNA.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\USER\\.nuget\\packages\\exceldna.addin\\1.6.0-preview3\\exceldna.addin.1.6.0-preview3.nupkg.sha512",
+    "C:\\Users\\USER\\.nuget\\packages\\exceldna.integration\\1.6.0-preview3\\exceldna.integration.1.6.0-preview3.nupkg.sha512"
+  ],
+  "logs": [
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'ExcelDna.Integration 1.6.0-preview3' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8' instead of the project target framework 'net6.0'. This package may not be fully compatible with your project.",
+      "libraryId": "ExcelDna.Integration",
+      "targetGraphs": [
+        "net6.0"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+C:\Projects\AnalyticsXLS\AnalyticsDNA\bin\Debug\net6.0\AnalyticsDNA.deps.json
+C:\Projects\AnalyticsXLS\AnalyticsDNA\bin\Debug\net6.0\AnalyticsDNA.dll
+C:\Projects\AnalyticsXLS\AnalyticsDNA\bin\Debug\net6.0\AnalyticsDNA.pdb
+C:\Projects\AnalyticsXLS\AnalyticsDNA\bin\Debug\net6.0\QuantLibrary.dll
+C:\Projects\AnalyticsXLS\AnalyticsDNA\bin\Debug\net6.0\QuantLibrary.pdb
+C:\Projects\AnalyticsXLS\AnalyticsDNA\obj\Debug\net6.0\AnalyticsDNA.csproj.AssemblyReference.cache
+C:\Projects\AnalyticsXLS\AnalyticsDNA\obj\Debug\net6.0\AnalyticsDNA.GeneratedMSBuildEditorConfig.editorconfig
+C:\Projects\AnalyticsXLS\AnalyticsDNA\obj\Debug\net6.0\AnalyticsDNA.AssemblyInfoInputs.cache
+C:\Projects\AnalyticsXLS\AnalyticsDNA\obj\Debug\net6.0\AnalyticsDNA.AssemblyInfo.cs
+C:\Projects\AnalyticsXLS\AnalyticsDNA\obj\Debug\net6.0\AnalyticsDNA.csproj.CoreCompileInputs.cache
+C:\Projects\AnalyticsXLS\AnalyticsDNA\obj\Debug\net6.0\AnalyticsDNA.csproj.CopyComplete
+C:\Projects\AnalyticsXLS\AnalyticsDNA\obj\Debug\net6.0\AnalyticsDNA.dll
+C:\Projects\AnalyticsXLS\AnalyticsDNA\obj\Debug\net6.0\refint\AnalyticsDNA.dll
+C:\Projects\AnalyticsXLS\AnalyticsDNA\obj\Debug\net6.0\AnalyticsDNA.pdb
+C:\Projects\AnalyticsXLS\AnalyticsDNA\obj\Debug\net6.0\ref\AnalyticsDNA.dll
